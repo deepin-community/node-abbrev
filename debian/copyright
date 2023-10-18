@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: abbrev
 Upstream-Contact: https://github.com/isaacs/abbrev-js/issues
 Source: https://github.com/isaacs/abbrev-js
+ https://registry.npmjs.org/@types/abbrev
 
 Files: *
 Copyright: Isaac Z. Schlueter <i@izs.me>
@@ -11,6 +12,10 @@ Files: debian/*
 Copyright: 2012, Jérémy Lal <kapouer@melix.org>
            2018, Andreas Moog <andreas.moog@warperbbs.de>
            2020, Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
